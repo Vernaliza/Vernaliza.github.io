@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>CIYOK UNITED ARCHIVES</title>
+  
+  <subtitle>CIYOK UNITED ARCHIVES</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2023-07-19T00:05:51.649Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Aplsia Sheran</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>罪岁 | SINAGE</title>
+    <link href="http://example.com/2023/07/19/SINAGE/"/>
+    <id>http://example.com/2023/07/19/SINAGE/</id>
+    <published>2023-07-19T00:03:05.451Z</published>
+    <updated>2023-07-19T00:05:51.649Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>丰饶 | Cornucopia</title>
+    <link href="http://example.com/2023/07/09/Cornucopia/"/>
+    <id>http://example.com/2023/07/09/Cornucopia/</id>
+    <published>2023-07-08T23:44:36.563Z</published>
+    <updated>2023-07-01T00:28:20.419Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>却雪 | RETREATED SNOW</title>
+    <link href="http://example.com/2023/06/28/RetreatedSnow/"/>
+    <id>http://example.com/2023/06/28/RetreatedSnow/</id>
+    <published>2023-06-28T01:17:49.062Z</published>
+    <updated>2023-07-10T23:56:49.695Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安兹 - 拉斐尼亚 | Anzz - Rapheania</title>
+    <link href="http://example.com/2023/06/26/Anzz-Raphaenia/"/>
+    <id>http://example.com/2023/06/26/Anzz-Raphaenia/</id>
+    <published>2023-06-26T02:45:34.439Z</published>
+    <updated>2023-06-26T02:45:34.439Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>烟井 | MIST WELL</title>
+    <link href="http://example.com/2023/06/26/MistWell/"/>
+    <id>http://example.com/2023/06/26/MistWell/</id>
+    <published>2023-06-26T02:44:40.308Z</published>
+    <updated>2023-06-26T02:45:31.333Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我们的世界 | AnemoiA</title>
+    <link href="http://example.com/2023/05/22/AnemoiA/"/>
+    <id>http://example.com/2023/05/22/AnemoiA/</id>
+    <published>2023-05-22T00:53:44.416Z</published>
+    <updated>2023-05-22T00:55:06.823Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>月烛 | LUNA CANDLE</title>
+    <link href="http://example.com/2023/03/23/LunaCandle/"/>
+    <id>http://example.com/2023/03/23/LunaCandle/</id>
+    <published>2023-03-23T00:55:50.561Z</published>
+    <updated>2023-03-23T00:56:41.670Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>真理之夜 | Night of Truths</title>
+    <link href="http://example.com/2023/03/12/NightOfTruths/"/>
+    <id>http://example.com/2023/03/12/NightOfTruths/</id>
+    <published>2023-03-12T01:46:55.072Z</published>
+    <updated>2023-03-12T01:48:34.956Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>星光 | Starry</title>
+    <link href="http://example.com/2023/03/12/Starry/"/>
+    <id>http://example.com/2023/03/12/Starry/</id>
+    <published>2023-03-12T01:45:58.940Z</published>
+    <updated>2023-03-12T01:46:51.379Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>告别雅拉 | Away From Yarah</title>
+    <link href="http://example.com/2023/03/12/AwayFromYarah/"/>
+    <id>http://example.com/2023/03/12/AwayFromYarah/</id>
+    <published>2023-03-12T01:38:14.482Z</published>
+    <updated>2023-03-12T01:42:11.878Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>廷卡廷卡 | Tinka tinkA</title>
+    <link href="http://example.com/2023/03/03/TinkaTinka/"/>
+    <id>http://example.com/2023/03/03/TinkaTinka/</id>
+    <published>2023-03-03T00:56:29.905Z</published>
+    <updated>2023-03-03T00:57:53.290Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>枯荣 | DIES TO FLOURISH</title>
+    <link href="http://example.com/2023/02/27/DiesToFlourish/"/>
+    <id>http://example.com/2023/02/27/DiesToFlourish/</id>
+    <published>2023-02-27T00:27:10.279Z</published>
+    <updated>2023-02-27T00:28:52.790Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>疯王的太阳 | EL SOL DEL REY LOCO</title>
+    <link href="http://example.com/2023/02/18/ElSolDelReyLoco/"/>
+    <id>http://example.com/2023/02/18/ElSolDelReyLoco/</id>
+    <published>2023-02-18T00:20:23.791Z</published>
+    <updated>2023-02-22T00:31:54.956Z</updated>
+    
+    <content type="html"><![CDATA[<p>1111</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;1111&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>同化 | ASSIMILATED</title>
+    <link href="http://example.com/2023/02/12/Assimilated/"/>
+    <id>http://example.com/2023/02/12/Assimilated/</id>
+    <published>2023-02-12T05:27:09.312Z</published>
+    <updated>2023-02-12T05:27:55.596Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>阿迪安的访问者 | ADYAH&#39;S VISITOR</title>
+    <link href="http://example.com/2023/02/06/Adyah&#39;sVisitor/"/>
+    <id>http://example.com/2023/02/06/Adyah&#39;sVisitor/</id>
+    <published>2023-02-06T12:42:06.963Z</published>
+    <updated>2023-02-12T05:18:27.762Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>新地平线 | NEW HORIZON</title>
+    <link href="http://example.com/2023/02/02/NewHorizon/"/>
+    <id>http://example.com/2023/02/02/NewHorizon/</id>
+    <published>2023-02-02T12:43:36.379Z</published>
+    <updated>2023-02-12T05:25:28.009Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>溅落 | SPLASH</title>
+    <link href="http://example.com/2023/01/27/Splash/"/>
+    <id>http://example.com/2023/01/27/Splash/</id>
+    <published>2023-01-27T14:33:24.303Z</published>
+    <updated>2023-02-12T05:26:16.048Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>涌现 | EMERGE</title>
+    <link href="http://example.com/2023/01/25/Emerge/"/>
+    <id>http://example.com/2023/01/25/Emerge/</id>
+    <published>2023-01-25T02:25:06.285Z</published>
+    <updated>2023-02-12T05:24:18.904Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>莱万·托斯塔尔和专家委员会 | LEVAN TOSTARE AND EXPERT COMMITTEE</title>
+    <link href="http://example.com/2023/01/24/LevanTostareAndExpertCommittee/"/>
+    <id>http://example.com/2023/01/24/LevanTostareAndExpertCommittee/</id>
+    <published>2023-01-24T15:30:04.918Z</published>
+    <updated>2023-02-12T05:25:08.263Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>this is a test</title>
+    <link href="http://example.com/2019/10/10/test/"/>
+    <id>http://example.com/2019/10/10/test/</id>
+    <published>2019-10-10T02:00:00.000Z</published>
+    <updated>2023-02-11T01:21:40.827Z</updated>
+    
+    <content type="html"><![CDATA[<p>3031</p><p>这是一句话<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="这是对应的脚注">[1]</span></a></sup></p><div class="note note-light">            <p>000</p>          </div><div class="note note-primary">            <p>111</p>          </div><div class="note note-secondary">            <p>222</p>          </div><div class="note note-success">            <p>333</p>          </div><div class="note note-danger">            <p>444</p>          </div><div class="note note-warning">            <p>555</p>          </div><div class="note note-info">            <p>666</p>          </div><span class="label label-primary">text</span> <br /><span class="label label-success">111</span>            <input type="checkbox" disabled checked="checked">text          <a class="btn" href="https://www.ciyok.com"  title="返回主页" target="_blank">主页</a><p>“救赎之道，就在其中”</p><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm">npm <span class="hljs-keyword">install </span>--save hexo-renderer-<span class="hljs-keyword">jade </span>hexo-generator-feed hexo-generator-sitemap hexo-<span class="hljs-keyword">browsersync </span>hexo-generator-archive<br><br></code></pre></td></tr></table></figure><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs"><br></code></pre></td></tr></table></figure><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>这是对应的脚注<p><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;3031&lt;/p&gt;
+&lt;p&gt;这是一句话&lt;sup id=&quot;fnref:1&quot; class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top hint--rounded&quot; aria-label=&quot;</summary>
+      
+    
+    
+    
+    
+    <category term="test1" scheme="http://example.com/tags/test1/"/>
+    
+    <category term="test2" scheme="http://example.com/tags/test2/"/>
+    
+  </entry>
+  
+</feed>
