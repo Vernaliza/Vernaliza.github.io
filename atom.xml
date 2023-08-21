@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-07-19T00:05:51.649Z</updated>
+  <updated>2023-08-19T00:26:04.394Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>白山 |MONTAGNE BLANC</title>
+    <link href="http://example.com/2023/08/19/MontagneBlanc/"/>
+    <id>http://example.com/2023/08/19/MontagneBlanc/</id>
+    <published>2023-08-19T00:25:02.641Z</published>
+    <updated>2023-08-19T00:26:04.394Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>罪岁 | SINAGE</title>
