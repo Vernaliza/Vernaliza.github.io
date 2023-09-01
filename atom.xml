@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-08-19T00:26:04.394Z</updated>
+  <updated>2023-09-01T23:57:08.138Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,21 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>雅歌 | Song of Songs</title>
+    <link href="http://example.com/2023/09/02/SongOfSongs/"/>
+    <id>http://example.com/2023/09/02/SongOfSongs/</id>
+    <published>2023-09-01T23:56:26.833Z</published>
+    <updated>2023-09-01T23:57:08.138Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>白山 |MONTAGNE BLANC</title>
@@ -306,31 +321,6 @@
     
     
     <category term="test" scheme="http://example.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>this is a test</title>
-    <link href="http://example.com/2019/10/10/test/"/>
-    <id>http://example.com/2019/10/10/test/</id>
-    <published>2019-10-10T02:00:00.000Z</published>
-    <updated>2023-02-11T01:21:40.827Z</updated>
-    
-    <content type="html"><![CDATA[<p>3031</p><p>这是一句话<sup id="fnref:1" class="footnote-ref"><a href="#fn:1" rel="footnote"><span class="hint--top hint--rounded" aria-label="这是对应的脚注">[1]</span></a></sup></p><div class="note note-light">            <p>000</p>          </div><div class="note note-primary">            <p>111</p>          </div><div class="note note-secondary">            <p>222</p>          </div><div class="note note-success">            <p>333</p>          </div><div class="note note-danger">            <p>444</p>          </div><div class="note note-warning">            <p>555</p>          </div><div class="note note-info">            <p>666</p>          </div><span class="label label-primary">text</span> <br /><span class="label label-success">111</span>            <input type="checkbox" disabled checked="checked">text          <a class="btn" href="https://www.ciyok.com"  title="返回主页" target="_blank">主页</a><p>“救赎之道，就在其中”</p><figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm">npm <span class="hljs-keyword">install </span>--save hexo-renderer-<span class="hljs-keyword">jade </span>hexo-generator-feed hexo-generator-sitemap hexo-<span class="hljs-keyword">browsersync </span>hexo-generator-archive<br><br></code></pre></td></tr></table></figure><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs"><br></code></pre></td></tr></table></figure><section class="footnotes"><div class="footnote-list"><ol><li><span id="fn:1" class="footnote-text"><span>这是对应的脚注<p><a href="#fnref:1" rev="footnote" class="footnote-backref"> ↩</a></span></span></li></ol></div></section></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;3031&lt;/p&gt;
-&lt;p&gt;这是一句话&lt;sup id=&quot;fnref:1&quot; class=&quot;footnote-ref&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top hint--rounded&quot; aria-label=&quot;</summary>
-      
-    
-    
-    
-    
-    <category term="test1" scheme="http://example.com/tags/test1/"/>
-    
-    <category term="test2" scheme="http://example.com/tags/test2/"/>
     
   </entry>
   
