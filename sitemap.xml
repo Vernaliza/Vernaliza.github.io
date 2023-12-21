@@ -220,7 +220,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2023-12-20</lastmod>
+    <lastmod>2023-12-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -228,21 +228,21 @@
   
   <url>
     <loc>http://example.com/tags/test/</loc>
-    <lastmod>2023-12-20</lastmod>
+    <lastmod>2023-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/test1/</loc>
-    <lastmod>2023-12-20</lastmod>
+    <lastmod>2023-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/test2/</loc>
-    <lastmod>2023-12-20</lastmod>
+    <lastmod>2023-12-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
