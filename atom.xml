@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2023-10-24T06:57:11.494Z</updated>
+  <updated>2024-01-08T01:14:42.724Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,9 +17,47 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>字符集21 | Endless String 21</title>
+    <link href="http://example.com/2024/01/08/EndlessString21/"/>
+    <id>http://example.com/2024/01/08/EndlessString21/</id>
+    <published>2024-01-08T01:14:42.724Z</published>
+    <updated>2024-01-08T01:14:42.724Z</updated>
+    
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
     <title>月光 | M00N 7IGHT</title>
-    <link href="http://example.com/2023/10/24/M00n719ht/"/>
-    <id>http://example.com/2023/10/24/M00n719ht/</id>
+    <link href="http://example.com/2024/01/08/M00n719ht/"/>
+    <id>http://example.com/2024/01/08/M00n719ht/</id>
+    <published>2024-01-08T01:14:05.048Z</published>
+    <updated>2024-01-08T01:14:40.012Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hexo？介是个嘛呀？<br>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><p>在这篇文章中，我们将从如何安装开始，实现Hexo博客平台搭建，写出第一篇文章，了解 GitLab Runner 并借助GitLab将博客部署到个人仓库以实现浏览器访问，申请自己的域名及https证书，最后将博客地址提交到搜索引擎以让大家能够搜索到你。</p><p>为了达到最佳阅读体验，请于右上角开启夜间模式</p><p>准备工作<br>安装 Hexo 相当简单，只需要在自己对应的平台先安装下列应用程序即可：</p><p>Node.js (Node.js 版本需不低于 10.13，建议使用 Node.js 12.0 及以上版本)<br>Node.js 是一个开源和跨平台的 JavaScript 运行时环境。<br>Git<br>Git是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。<br>（其实很简单，只需要无脑Next即可）</p><p>Hexo依赖于Node.js执行环境及其npm包管理器，同时也需要Git来拉取资源，若完成了上述软件的安装，即可进行下一步。</p><p>当然，你也可以去查看一下官方的说明文档</p><p>安装Hexo<br>很简单，安装Hexo只需要一条命令即可，而它被显示在了Hexo主页最显眼的位置</p><p>1<br>npm install hexo-cli -g<br>例如在Windows下，打开命令提示符cmd或powershell终端并执行安装命令<br>安装Hexo-Windows<br>安装Hexo-Windows</p><p>Linux 下也是同样的操作，但是如果不想面对满屏的ERROR，记得加上sudo或以root身份执行<br>安装Hexo-Linux<br>安装Hexo-Linux</p><p>如果正确安装，通过命令hexo version可以查看版本号。</p><p>初始化&amp;运行<br>如果已经安装好了Hexo，我们只需要敲击简单的命令行即可初始化博客，不过首先我们需要找一个用于放置博客的文件夹，注意这个文件夹必须是空的，这里我新建了一个名为test的文件夹，然后我们cd到这个空文件夹内（或者在这个位置打开终端），执行如下命令以初始化Hexo</p><p>1<br>hexo init<br>如果使用的终端是Windows PowerShell的话可能会出现“无法加载文件，因为在此系统上禁止运行脚本”的报错，这是因为PowerShell默认执行策略是禁止脚本命令运行的，可以敲击cmd进入命令提示符再执行初始化，或者以管理员身份打开PowerShell的同时执行Set-ExecutionPolicy RemoteSigned，将Powershell的执行策略更改为RemoteSigned</p><p>Hexo初始化<br>Hexo初始化</p><p>看不明白？这里我们逐行翻译一下大意，第一行表明Hexo正在从<a href="https://github.com/hexojs/hexo-starter.git%E8%BF%99%E4%B8%AA%E5%9C%B0%E5%9D%80%E8%8E%B7%E5%8F%96Hexo%E5%90%AF%E5%8A%A8%E5%99%A8%E7%9B%B8%E5%85%B3%E6%96%87%E4%BB%B6%EF%BC%8C%E8%80%8C%E7%AC%AC%E4%BA%8C%E8%A1%8C%E5%88%99%E6%8F%90%E7%A4%BA%E6%97%A0%E6%B3%95%E4%BB%8E%E8%BF%99%E4%B8%AA%E5%9C%B0%E5%9D%80%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%EF%BC%8C%E5%8E%9F%E5%9B%A0%E6%98%AF%E6%97%A0%E6%B3%95%E8%A7%A3%E6%9E%90GitHub.com,%E4%BA%8E%E6%98%AF%E7%AC%AC%E4%B8%89%E8%A1%8C%E6%8F%90%E7%A4%BA%E5%B0%86%E4%BB%8E%E6%9C%AC%E5%9C%B0%E5%AE%89%E8%A3%85%E7%9A%84Hexo%E6%96%87%E4%BB%B6%E4%B8%AD%E5%A4%8D%E5%88%B6%E4%B8%80%E4%BB%BD%E5%90%AF%E5%8A%A8%E5%99%A8%E5%88%B0%E5%BD%93%E5%89%8D%E7%9B%AE%E5%BD%95%EF%BC%8C%E7%AC%AC%E5%9B%9B%E8%A1%8C%E5%AE%89%E8%A3%85%E4%BE%9D%E8%B5%96%E6%96%87%E4%BB%B6%EF%BC%8C%E7%AC%AC%E4%BA%94%E8%A1%8C%E6%8F%90%E7%A4%BA%E5%AE%89%E8%A3%85%E6%88%90%E5%8A%9F%E3%80%82">https://github.com/hexojs/hexo-starter.git这个地址获取Hexo启动器相关文件，而第二行则提示无法从这个地址获取文件，原因是无法解析GitHub.com,于是第三行提示将从本地安装的Hexo文件中复制一份启动器到当前目录，第四行安装依赖文件，第五行提示安装成功。</a></p><p>考虑到国内GitHub的确经常抽风，这是正常现象，看到这个高亮的 WARN 不要紧张，当然不排除网络质量好的时候能直接从云端获取资源。</p><p>到这里，你会发现文件夹里面已经出现了很多东西：<br>Hexo文件夹<br>Hexo文件夹</p><p>接下来，在刚才的终端内输入启动命令：</p><p>1<br>hexo s<br>Hexo运行<br>Hexo运行</p><p>这时候按住Ctrl点击Hexo启动器给出的连接，即可在本地访问渲染后的博客页面：<br>Hexo默认主题页面<br>Hexo默认主题页面</p><p>当想结束渲染服务时，按下Ctrl+C退出渲染器。</p><p>到了这一步，如果恰好你有一台服务器、并且恰好拥有公网IP，或者有那么一些关于隧道的知识，你已经可以通过上述这些方式将预览地址发布出去供他人访问了。</p><p>更新第一篇推文<br>Hexo使用Markdown作为主要编辑语言，在开始前，倘若你对此没有任何了解也无需担心，Markdown标记语言入门十分容易，看看这里就能有所收获。</p><p>若你对Markdown有所了解或者想之后再了解，那让我们先Ctrl+C退出渲染器，执行下列命令来创建一篇新文章或者新的页面：</p><p>1<br>hexo new [layout] <title><br>在命令中可以指定文章的布局（layout），默认为 post，以及文章标题（title）可以通过修改 _config.yml 中的 default_layout 参数来指定默认布局。</p><p>Hexo 有三种默认布局：post、page 和 draft。在创建这三种不同类型的文件时，它们将会被保存到不同的路径；而自定义的其他布局和 post 相同，都将储存到 source&#x2F;_posts 文件夹。</p><p>布局路径<br>postsource&#x2F;_posts<br>pagesource<br>draftsource&#x2F;_drafts<br>&lt;其他&gt;详见对应主题<br>你可以在source&#x2F;_posts下找到Hexo默认生成的文章<br>Hexo默认文章位置<br>Hexo默认文章位置</p><p>实际上，也可以手动在这个目录下建立.md文件并开始编写，但是需要注意每个文章起始都有一些用于渲染器的内容信息</p><p>文章标签<br>文章标签</p><p>这些文章标签在不同主题及设置下有不同的功能及扩充，但大致都包含如下几种：</p><p>标签功能<br>title指定文章标题<br>date指定文章时间<br>tags指定文章内容标签摘要<br>categories指定文章归档内容<br>&lt;其他&gt;详见对应主题<br>新建文章或文件后，启动渲染器，即可通过浏览器预览页面，事实上也可以开启渲染器的情况下直接在source&#x2F;_posts文件夹内新建文章或者编写文章，刷新一下浏览器即可实现一边预览一边编辑</p><p>新建文章<br>新建文章</p><p>要注意的是，所有的图片文件都属于资源文件，文章对应的图片文件需要放到对应主题的source&#x2F;文件夹下，并在文章内时使用相对路径索引，且必须以&#x2F;指代对应的source路径开头，否则无法显示，详见Hexo资源文件夹说明</p><p>图片索引<br>图片索引</p><p>主题&amp;美化<br>默认主题太丑？没关系，你可以在官方的主题收纳页找到更多符合你 XP 审美的主题，不论二次元极致味冲还是简洁看板类型都能在这里找到，通常下载连接都藏在各个特色十足的页面角落，每个主题都有其对应的个性化配置文件，所以这里不一一展开，具体到对应的主题发布页查看说明文档即可。</p><p>Hexo主题收纳页<br>Hexo主题收纳页</p><p>此外，Hexo主题大多都归档发布在GitHub上，所以有时候打开需要科学上网，这里我推荐网易UU加速器-免费学术加速稳定链接不&amp;awdawd^&amp;$%^，我真的没收广告费，网易速速给我打钱</p><p>为了进行下去我们需要知道….<br>到了这里，我们已经成功在自己的电脑上部署了Hexo，并且运行了渲染器实现浏览器访问，甚至为了满足自己的XP完成了美化工作，但是大部分人可能并没有公网IP或者服务器资源，我们现在所做的事情无异于自娱自乐，这个网站现在还仅仅只能在渲染器运行时通过本地链接访问，并不能拿去装B分享给你的朋友访问。</p><p>我们仔细想一想，网页能够访问的前提，是渲染器正常工作，且有一个大家都能访问的地址，那么有没有什么办法能够让我们的博客部署到一个24小时不下线、不收费且不论何人何时何地只要有网都能正常访问的地方呢？</p><p>有的，那就是 GitHub&#x2F;GitLab&#x2F;Gitee 等代码托管平台，并且Hexo官方部署说明文档里也有提及<br>GitLab<br>GitLab</p><p>对于程序员来说，这东西肯定是至少没用过也必须听说过，对于我们部署博客的目的来说，Git发挥的作用就相当于一个云盘，存储着我们的博客网页供大家访问而已。</p><p>请放心，这个过程并不复杂，对于许多过程我们都可以忽略，我们只需要知道Git仓库的概念，Git拉取、推送的操作即可，只要细心一些是可以掌握的，详情可以参考如下链接，或者搜索一些视频教程：</p><p>微软Git说明文档<br>罗杰·杜德勒-git简明指南<br>Git操作详解以及在VScode中的使用<br>当然我尽可能把后续步骤以过程化的形式展现，所以读者也可以试试跟着走</p><p>个人比较推荐使用VsCode图形化Git操作方式，并且因为GitHub神奇的网络特性且没有中文支持，我建议使用国内可以正常访问的Gitee或GitLab，由于个人习惯原因本文将以GitLab为目标平台。</p><p>为此读者需要自行创建一个GitLab账号，到那时由于GitLab使用了谷歌人机验证系统，在注册时会有一个验证码出不来且不易察觉，所以建议大家科学上网或者使用GitHub等方式代理登陆。（虽然不知道为什么UU加速器居然可以加载出这玩意来）</p><p>注册GitLab<br>注册GitLab</p><p>初次注册及登陆时GitLab默认语言偏好为英文，可以在右上角点击自己头像找到偏好设置-&gt;本地化-&gt;语言偏好，并将其设置为中文，不要忘了翻到下面保存偏好设置</p><p>GitLab语言偏好设置<br>GitLab语言偏好设置</p><p>随后我们需要对账户进行ssh令牌设置，这里插入一段ssh的简单介绍：</p><p>SSH 为 Secure Shell 的缩写，由 IETF 的网络小组（Network Working Group）所制定；SSH 为建立在应用层基础上的安全协议。SSH 是较可靠，专为远程登录会话和其他网络服务提供安全性的协议。利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。SSH最初是UNIX系统上的一个程序，后来又迅速扩展到其他操作平台。SSH在正确使用时可弥补网络中的漏洞。SSH客户端适用于多种平台。几乎所有UNIX平台—包括HP-UX、Linux、AIX、Solaris、Digital UNIX、Irix，以及其他平台，都可运行SSH。</p><p>简单来说，为了与Git服务器通信，我们需要在自己的电脑上生成一个ssh密钥，并将其登记到Git服务器，我们可以在终端内输入以下命令以ed25519算法进行ssh密钥生成：</p><p>1<br>ssh-keygen -t ed25519<br>在生成过程中会提示你输入要保存的文件位置、掩码、确认掩码等，本人建议是一路直接回车(不然你可能需要面临指定ssh密钥令牌路径等问题)<br>ssh密钥生成<br>ssh密钥生成</p><p>对于Linux也是一样的操作，且如果执行正确，会看到富有标志性的Randomart Image，生成结束后可以在当初指定的位置找到密钥文件，如果是按照默认位置生成的，那可以前往终端的提示括号内容指向路径(对于Windows用户而言这个路径通常是C:\Users&lt;用户名&gt;.ssh)找到对应的两个密钥文件，我们需要以记事本方式打开.pub结尾的公钥文本，并复制其中的内容添加到GitLab SSH令牌，你可以在偏好设置里找到它</p><p>GitLab添加SSH密钥<br>GitLab添加SSH密钥</p><p>如果生成发现生成路径下有两组以上的ssh密钥，请删掉他们并重新生成，确保只有一套密钥存在，以免因为密钥配置引发的权限相关问题，并且对于密钥的内容，不要对外公开！！不要对外公开！！不要对外公开！！</p><p>本文中出现的一切密钥明文仅作说明使用，后续会被销毁。</p><p>新建一个仓库并推送内容<br>为了将博客相关内容上传到GitLab，我们需要新建一个项目仓库，你可以在左上角的菜单里面找到它：<br>GitLab新建项目仓库<br>GitLab新建项目仓库</p><p>GitLab提供了几种项目类型模板，这里我们选择新建空白项目，项目URL+标识串与最终生成的博客网页链接有关系，如果你想让你的网页以 https:&#x2F;&#x2F;&lt;你的ID&gt;.gitlab.io 的方式访问，那么这个项目标识串就应当为 &lt;你的ID&gt;.gitlab.io 且在你个人的项目URL名称空间下，这样最稳妥且不会重名，此外也可以随便起一个项目名称就好，但因为毕竟是用了人家的托管服务，这个仓库的页面服务还是会在gitlab.io域名下，归档到 https:&#x2F;&#x2F;&lt;项目 URL&gt;.gitlab.io&#x2F;&lt;项目标识串&gt; ，此外也不是没有别的网页地址方式，后面我们可以申请自己的域名地址来映射到你的博客，实现类似http:&#x2F;&#x2F;世界超一流大学.com的访问方式。</p><p>项目标识串通常是与项目名称同名自动填充的，但不支持中文及任何特殊字符，并且我们不需要自述文件所以取消勾选，因为我自己的博客已经存在，所以这里我以blog.gitlab.io为项目名称及标识串</p><p>GitLab新建空白项目<br>GitLab新建空白项目</p><p>项目仓库新建完成后先不要关闭它，稍后会用到，如果你已经关闭了，你可以到你的个人项目里找到它。</p><p>我们需要去之前博客所在文件夹内新建两个文件，注意文件名不要打错了，如果你的电脑没有后缀名显示，那么请先前往控制面板取消文件后缀名隐藏：<br>取消文件后缀名隐藏<br>取消文件后缀名隐藏</p><p>需要新建的两个文件及内容如下，你可以新建txt文本并填充内容后修改文件名为目标文件名：</p><p>.gitignore</p><p>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11</p><h1 id="gitignore-文件的内容"><a href="#gitignore-文件的内容" class="headerlink" title=".gitignore 文件的内容"></a>.gitignore 文件的内容</h1><p>.DS_Store<br>Thumbs.db<br>db.json<br><em>.log<br>node_modules&#x2F;<br>public&#x2F;<br>.deploy</em>&#x2F;<br>_multiconfig.yml</p><p>.gitlab-ci.yml</p><p>1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16<br>17<br>18<br>19</p><h1 id="gitlab-ci-yml-文件的内容"><a href="#gitlab-ci-yml-文件的内容" class="headerlink" title=".gitlab-ci.yml 文件的内容"></a>.gitlab-ci.yml 文件的内容</h1><p>image: node:10-alpine # use nodejs v10 LTS<br>cache:<br>  paths:<br>    - node_modules&#x2F;</p><p>before_script:</p><ul><li>npm install hexo-cli -g</li><li>npm install</li></ul><p>pages:<br>  script:<br>    - hexo generate<br>  artifacts:<br>    paths:<br>      - public<br>  only:<br>    - master<br>.gitignore用于告知Git需要忽略哪些文件，如果你的文件夹内已经存在它，那么请检查其中是否包含了public&#x2F;条目,如果没有请记得务必加上；.gitlab-ci.yml是一个用于GitLab CI&#x2F;CD的流水线脚本，它能够指挥GitLab执行器生成我们博客的页面并部署GitLab Pages页面托管服务，这个我们稍后会提到</p><p>向博客目录文件夹内添加完这两个文件后，我们在 博客所在目录 打开终端，执行Git指令上传博客相关文件到我们刚才建立的仓库，如果你是第一次使用Git，还需要执行下面两条指令来设置你的基本信息：</p><p>1<br>2<br>git config –global user.name “用户名”<br>git config –global user.email “邮箱地址”<br>这个用户名和邮箱地址仅作为上传仓库时的信息标记，并不用于任何实质性的身份验证，这部分的工作已经由ssh来完成了，所以大家随便填写即可。</p><p>随后我们依次执行以下指令（注意不要连注释一块复制了）：</p><p>1<br>2<br>3<br>4<br>5<br>6<br>git init                                     &#x2F;&#x2F;初始化本地git仓库<br>git remote add origin &lt;项目仓库ssh地址&gt;      &#x2F;&#x2F;为当前git仓库添加远程关联存储库并标记为origin<br>git switch -c master                        &#x2F;&#x2F;切换到新建分支master<br>git add *                                   &#x2F;&#x2F;为仓库当前分支拟添加当前目录下除忽略外的所有文件<br>git commit -m ‘first commit’                &#x2F;&#x2F;为仓库当前分支将上述拟添加的文件以<code>first commit</code>消息记录并提交<br>git push -u origin master                   &#x2F;&#x2F;将本地仓库当前分支推送到标记为origin的远程存储库的master分支<br>项目仓库的ssh地址可以在仓库页面的“克隆”处找到：<br>GitLab项目仓库ssh地址<br>GitLab项目仓库ssh地址</p><p>在敲击git add *与git commit -m ‘first commit’时会可能出现很多带warning文件信息刷屏，是正常现象，这与文件行尾序列为RF或CRLF有关，但是Git会自动处理好，这里不多展开，当git push -u origin master执行完成后，你可以刷新一下项目仓库页面，可以看到文件已经成功推送上来了</p><p>Git提交仓库<br>Git提交仓库</p><p>GitLab仓库提交后<br>GitLab仓库提交后</p><p>一切执行正确的话，除了在项目仓库页面看到提交的文件外，GitLab还非常“贴心”地向你的右键发送了一封CI&#x2F;CD流水线失败地邮件，这是正常的，原因是GitLab找不到流水线执行所需的执行器（Runner），不用担心，我们慢慢来解决这个问题。</p><p>GitLab Runner？能吃吗？<br>当然不能，从名字就可以看出来，GitLab Runner 就是个负责跑腿的（Runner）家伙，好比你上网买了个东西、点了个外卖，快递员和配送员给你跑腿把东西送到你手里，GitLab Runner，也称执行器（或者跑腿的也行）通过获取仓库内.gitlab-ci.yml文件内容来确定自己需要做些什么，前面我们已经为仓库添加了一份Runner需要执行的任务清单，让我们来详细看一下里面的内容都有何种含义：</p><h1 id="gitlab-ci-yml-文件的内容-1"><a href="#gitlab-ci-yml-文件的内容-1" class="headerlink" title=".gitlab-ci.yml 文件的内容"></a>.gitlab-ci.yml 文件的内容</h1><p>image: node:10-alpine         # 指定工作环境镜像为 nodejs v10 LTS<br>cache:                        # 指定请求相关文件或目录<br>  paths:                      # cache请求的目录条目<br>    - node_modules&#x2F;           # 目录条目</p><p>before_script:                # 执行前脚本，通常是为接下来的任务做环境准备的</p><ul><li>npm install hexo-cli -g   # 通过npm安装hexo客户端</li><li>npm install               # 安装npm软件包及其依赖的软件包</li></ul><p>pages:                        # pages任务<br>  script:                     # 脚本内容<br>    - hexo generate           # hexo静态文件生成，会将静态文件生成到public目录下<br>  artifacts:                  # 产物指定<br>    paths:                    # 产物路径指定<br>      - public                # 指定产物路径为public<br>  only:                       # 指定pages任务条件<br>    - master                  # 指定pages任务只在master分支执行<br>以上的执行过程就是一条CI&#x2F;CD流水线，当然这只是DevOps环节中最简单的应用方式之一，如果你想了解更多可以看这里&#x3D;&#x3D;&#x3D;&gt;MicrosoftAzure-什么是 DevOps？</p><p>你会发现这张清单无非就是让Runner去执行了一些脚本命令，事实上也确实如此，我们甚至可以自己执行上述内容，并手动将Hexo生成的public目录上传到仓库并开启GitLab Pages服务，但如果每次都要冒着环境配置不正确或记错指令及操作步骤的风险去执行这个过程，未免着实不太雅致，有了跑腿的执行器，这些过程都会变得准确且自动化，CI&#x2F;CD流水线将在仓库有更新提交时自动寻找Runner执行流水线任务，前提是你为项目仓库的流水线配置了至少一个可用的Runner。</p><p>为项目仓库配置Runner<br>GitLab为项目社区提供了许多公开免费的共享Runner，这些共享Runner的存在好比免费且不知疲倦的外卖员，极大地促进利好了社区项目构建及个人开发者的工作，但因为Runner毕竟是一个个真实存在的执行器，所以难免有心怀不轨之人想借这点微妙的算力做些有违社区初衷的事情，自某个时间点起GitLab对共享Runner策略作出了一些调整，每个使用共享Runner的用户都必须向GitLab提供真实的信用卡信息以验证身份，且对每月的共享Runner执行时间做出了限制（本文时间点为每账号每月400min），如果你恰好有一张VISA信用卡（没错，普通的储蓄卡&#x2F;借记卡是不行的），那么可以在CI&#x2F;CD流水线的失败任务里找到身份验证设置：<br>GitLab CI&#x2F;CD流水线<br>GitLab CI&#x2F;CD流水线</p><p>GitLab 共享Runner账户认证<br>GitLab 共享Runner账户认证</p><p>当然，并不是所有人都有这个条件，而且共享Runner的精神虽然高尚，但那点可怜的带宽未免还是让人有些膈应……<br>我们可以在自己的设备上安装一个Runner执行器，用于项目仓库的流水线任务，并且因为是自己的，所以不用担心每月配额及被心怀不轨之人滥用的情况，你所需要做的就是安装下载一个GitLab Runner：</p><p>GitLab Runner 安装索引</p><p>如果是windows用户，这里有64-bit和32-bit的直链，点击下载即可。</p><p>GitLab Runner安装索引页<br>GitLab Runner安装索引页</p><p>下载完成后，我们将其更名为gitlab-runner.exe并将其放置到一个不经常使用但能够找到的目录下，并在此目录下以管理员身份打开终端输入以下指令以配置Runner：</p><p>gitlab-runner.exe install      &#x2F;&#x2F;安装GitLab Runner 服务<br>gitlab-runner.exe register     &#x2F;&#x2F;注册GitLab Runner 到Git服务器<br>第二条指令执行后，会要求你输入希望注册的任务派发服务器URL，注册令牌（Token），对此执行器的描述，对此执行器的标签设置，增加可选描述，执行器工作方式等等，任务派发服务器URL，注册令牌Token可以在项目仓库的CI&#x2F;CD设置里找到，顺便记得关闭右侧的共享Runner。<br>GitLab Runner令牌<br>GitLab Runner令牌</p><p>GitLab Runner配置<br>GitLab Runner配置</p><p>一切执行顺利的话，你将会在CI&#x2F;CD设置种找到刚刚注册的Runner执行器，让我们点击编辑，勾选允许执行未被标记的任务以安排它能够执行所有来自流水线的所有任务：<br>编辑GitLab Runner<br>编辑GitLab Runner</p><p>GitLab Runner指定未标记作业<br>GitLab Runner指定未标记作业</p><p>对于windows用户，我们随后需要找到GitLab所在目录下多出的config.toml文件，我们以记事本方式打开它，并将shell &#x3D; “pwsh”条目更改为shell &#x3D; “powershell”（注意不要破坏缩进），并确保已经将powershell执行策略策略设置为了RemoteSigned，如果没有请跳转到这里，随后回到终端（如果你已经关闭了请重新在Runner目录以管理员身份打开），输入以下指令让执行器开始工作：</p><p>gitlab-runner.exe run<br>运行GitLab Runner<br>运行GitLab Runner</p><p>此时保持GitLab Runner在后台工作，我们前往GitLab手动为master分支触发一下之前失败的流水线（不需要设置变量）：<br>手动触发GitLab CI&#x2F;CD流水线<br>手动触发GitLab CI&#x2F;CD流水线</p><p>可以看到流水线正在开始执行，而你的终端也开始弹出消息，稍等片刻后流水线便执行完毕，可以看到绿色的通过字样及GitLab向你邮箱发来的贺电：<br>GitLab 流水线通过<br>GitLab 流水线通过</p><p>我们可以在项目仓库的Pages服务里查看生成的页面链接：<br>GitLab Pages<br>GitLab Pages</p><p>正常来说，你能够看到和在本地预览时一样的画面，但不排除少数人在创建仓库时起了些特立独行的名称，所以可能会出现页面显示不正常的情况，这时你可以回到项目仓库主页，找到_config.yml并打开，使用Web IDE编辑它，将url: <a href="http://example.com条目后的链接更改为你在pages服务看到的链接,并提交上传(在本地仓库,你应该执行git/">http://example.com条目后的链接更改为你在Pages服务看到的链接，并提交上传（在本地仓库，你应该执行git</a> pull来同步这个操作），也可以直接修改本地仓库的_config.yml，并执行git add *拟存储，git commit -m ‘&lt;确认提交的消息记录&gt;’确认存储记录，最后执行git push推送到GitLab仓库，对于所有的仓库文件更改（包括博客文档更新）你都可以这么做，流水线会自动对每一次的推送执行任务，等待流水线再次执行完毕后即可刷新查看页面，且如果你希望这个页面能被所有人看到，那么请根据提示前往左侧 项目设置-&gt;通用-&gt;可见性-&gt;Pages 修改为所有人可见</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Hexo？介是个嘛呀？&lt;br&gt;Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。&lt;/p&gt;
+&lt;p&gt;在这篇文章中，我们将从如何安装开始，实现Hexo博客平台搭建，写出第一篇文章，了解</summary>
+      
+    
+    
+    
+    
+    <category term="test" scheme="http://example.com/tags/test/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>月光 | M00N 7IGHT</title>
+    <link href="http://example.com/2023/10/24/hidden/M00n719ht/"/>
+    <id>http://example.com/2023/10/24/hidden/M00n719ht/</id>
     <published>2023-10-24T06:55:33.494Z</published>
     <updated>2023-10-24T06:57:11.494Z</updated>
     
@@ -33,8 +71,8 @@
   
   <entry>
     <title>绛雨 | DUSK RAIN</title>
-    <link href="http://example.com/2023/10/21/DuskRain/"/>
-    <id>http://example.com/2023/10/21/DuskRain/</id>
+    <link href="http://example.com/2023/10/21/hidden/DuskRain/"/>
+    <id>http://example.com/2023/10/21/hidden/DuskRain/</id>
     <published>2023-10-21T00:13:07.449Z</published>
     <updated>2023-10-21T00:14:01.962Z</updated>
     
@@ -48,8 +86,8 @@
   
   <entry>
     <title>雅歌 | Song of Songs</title>
-    <link href="http://example.com/2023/09/02/SongOfSongs/"/>
-    <id>http://example.com/2023/09/02/SongOfSongs/</id>
+    <link href="http://example.com/2023/09/02/hidden/SongOfSongs/"/>
+    <id>http://example.com/2023/09/02/hidden/SongOfSongs/</id>
     <published>2023-09-01T23:56:26.833Z</published>
     <updated>2023-09-01T23:57:08.138Z</updated>
     
@@ -63,8 +101,8 @@
   
   <entry>
     <title>白山 |MONTAGNE BLANC</title>
-    <link href="http://example.com/2023/08/19/MontagneBlanc/"/>
-    <id>http://example.com/2023/08/19/MontagneBlanc/</id>
+    <link href="http://example.com/2023/08/19/hidden/MontagneBlanc/"/>
+    <id>http://example.com/2023/08/19/hidden/MontagneBlanc/</id>
     <published>2023-08-19T00:25:02.641Z</published>
     <updated>2023-08-19T00:26:04.394Z</updated>
     
@@ -78,8 +116,8 @@
   
   <entry>
     <title>罪岁 | SINAGE</title>
-    <link href="http://example.com/2023/07/19/SinAge/"/>
-    <id>http://example.com/2023/07/19/SinAge/</id>
+    <link href="http://example.com/2023/07/19/hidden/SinAge/"/>
+    <id>http://example.com/2023/07/19/hidden/SinAge/</id>
     <published>2023-07-19T00:03:05.451Z</published>
     <updated>2023-07-19T00:05:51.649Z</updated>
     
@@ -93,8 +131,8 @@
   
   <entry>
     <title>丰饶 | Cornucopia</title>
-    <link href="http://example.com/2023/07/09/Cornucopia/"/>
-    <id>http://example.com/2023/07/09/Cornucopia/</id>
+    <link href="http://example.com/2023/07/09/hidden/Cornucopia/"/>
+    <id>http://example.com/2023/07/09/hidden/Cornucopia/</id>
     <published>2023-07-08T23:44:36.563Z</published>
     <updated>2023-07-01T00:28:20.419Z</updated>
     
@@ -108,8 +146,8 @@
   
   <entry>
     <title>却雪 | RETREATED SNOW</title>
-    <link href="http://example.com/2023/06/28/RetreatedSnow/"/>
-    <id>http://example.com/2023/06/28/RetreatedSnow/</id>
+    <link href="http://example.com/2023/06/28/hidden/RetreatedSnow/"/>
+    <id>http://example.com/2023/06/28/hidden/RetreatedSnow/</id>
     <published>2023-06-28T01:17:49.062Z</published>
     <updated>2023-07-10T23:56:49.695Z</updated>
     
@@ -123,8 +161,8 @@
   
   <entry>
     <title>安兹 - 拉斐尼亚 | Anzz - Rapheania</title>
-    <link href="http://example.com/2023/06/26/Anzz-Raphaenia/"/>
-    <id>http://example.com/2023/06/26/Anzz-Raphaenia/</id>
+    <link href="http://example.com/2023/06/26/hidden/Anzz-Raphaenia/"/>
+    <id>http://example.com/2023/06/26/hidden/Anzz-Raphaenia/</id>
     <published>2023-06-26T02:45:34.439Z</published>
     <updated>2023-06-26T02:45:34.439Z</updated>
     
@@ -138,8 +176,8 @@
   
   <entry>
     <title>我们的世界 | AnemoiA</title>
-    <link href="http://example.com/2023/05/22/AnemoiA/"/>
-    <id>http://example.com/2023/05/22/AnemoiA/</id>
+    <link href="http://example.com/2023/05/22/hidden/AnemoiA/"/>
+    <id>http://example.com/2023/05/22/hidden/AnemoiA/</id>
     <published>2023-05-22T00:53:44.416Z</published>
     <updated>2023-05-22T00:55:06.823Z</updated>
     
@@ -153,8 +191,8 @@
   
   <entry>
     <title>月烛 | LUNA CANDLE</title>
-    <link href="http://example.com/2023/03/23/LunaCandle/"/>
-    <id>http://example.com/2023/03/23/LunaCandle/</id>
+    <link href="http://example.com/2023/03/23/hidden/LunaCandle/"/>
+    <id>http://example.com/2023/03/23/hidden/LunaCandle/</id>
     <published>2023-03-23T00:55:50.561Z</published>
     <updated>2023-03-23T00:56:41.670Z</updated>
     
@@ -168,8 +206,8 @@
   
   <entry>
     <title>真理之夜 | Night of Truths</title>
-    <link href="http://example.com/2023/03/12/NightOfTruths/"/>
-    <id>http://example.com/2023/03/12/NightOfTruths/</id>
+    <link href="http://example.com/2023/03/12/hidden/NightOfTruths/"/>
+    <id>http://example.com/2023/03/12/hidden/NightOfTruths/</id>
     <published>2023-03-12T01:46:55.072Z</published>
     <updated>2023-03-12T01:48:34.956Z</updated>
     
@@ -183,8 +221,8 @@
   
   <entry>
     <title>星光 | Starry</title>
-    <link href="http://example.com/2023/03/12/Starry/"/>
-    <id>http://example.com/2023/03/12/Starry/</id>
+    <link href="http://example.com/2023/03/12/hidden/Starry/"/>
+    <id>http://example.com/2023/03/12/hidden/Starry/</id>
     <published>2023-03-12T01:45:58.940Z</published>
     <updated>2023-03-12T01:46:51.379Z</updated>
     
@@ -198,8 +236,8 @@
   
   <entry>
     <title>告别雅拉 | Away From Yarah</title>
-    <link href="http://example.com/2023/03/12/AwayFromYarah/"/>
-    <id>http://example.com/2023/03/12/AwayFromYarah/</id>
+    <link href="http://example.com/2023/03/12/hidden/AwayFromYarah/"/>
+    <id>http://example.com/2023/03/12/hidden/AwayFromYarah/</id>
     <published>2023-03-12T01:38:14.482Z</published>
     <updated>2023-03-12T01:42:11.878Z</updated>
     
@@ -213,8 +251,8 @@
   
   <entry>
     <title>廷卡廷卡 | Tinka tinkA</title>
-    <link href="http://example.com/2023/03/03/TinkaTinka/"/>
-    <id>http://example.com/2023/03/03/TinkaTinka/</id>
+    <link href="http://example.com/2023/03/03/hidden/TinkaTinka/"/>
+    <id>http://example.com/2023/03/03/hidden/TinkaTinka/</id>
     <published>2023-03-03T00:56:29.905Z</published>
     <updated>2023-03-03T00:57:53.290Z</updated>
     
@@ -228,8 +266,8 @@
   
   <entry>
     <title>枯荣 | DIES TO FLOURISH</title>
-    <link href="http://example.com/2023/02/27/DiesToFlourish/"/>
-    <id>http://example.com/2023/02/27/DiesToFlourish/</id>
+    <link href="http://example.com/2023/02/27/hidden/DiesToFlourish/"/>
+    <id>http://example.com/2023/02/27/hidden/DiesToFlourish/</id>
     <published>2023-02-27T00:27:10.279Z</published>
     <updated>2023-02-27T00:28:52.790Z</updated>
     
@@ -243,8 +281,8 @@
   
   <entry>
     <title>疯王的太阳 | EL SOL DEL REY LOCO</title>
-    <link href="http://example.com/2023/02/18/ElSolDelReyLoco/"/>
-    <id>http://example.com/2023/02/18/ElSolDelReyLoco/</id>
+    <link href="http://example.com/2023/02/18/hidden/ElSolDelReyLoco/"/>
+    <id>http://example.com/2023/02/18/hidden/ElSolDelReyLoco/</id>
     <published>2023-02-18T00:20:23.791Z</published>
     <updated>2023-02-22T00:31:54.956Z</updated>
     
@@ -266,8 +304,8 @@
   
   <entry>
     <title>同化 | ASSIMILATED</title>
-    <link href="http://example.com/2023/02/12/Assimilated/"/>
-    <id>http://example.com/2023/02/12/Assimilated/</id>
+    <link href="http://example.com/2023/02/12/hidden/Assimilated/"/>
+    <id>http://example.com/2023/02/12/hidden/Assimilated/</id>
     <published>2023-02-12T05:27:09.312Z</published>
     <updated>2023-02-12T05:27:55.596Z</updated>
     
@@ -281,40 +319,10 @@
   
   <entry>
     <title>阿迪安的访问者 | ADYAH&#39;S VISITOR</title>
-    <link href="http://example.com/2023/02/06/Adyah&#39;sVisitor/"/>
-    <id>http://example.com/2023/02/06/Adyah&#39;sVisitor/</id>
+    <link href="http://example.com/2023/02/06/hidden/Adyah&#39;sVisitor/"/>
+    <id>http://example.com/2023/02/06/hidden/Adyah&#39;sVisitor/</id>
     <published>2023-02-06T12:42:06.963Z</published>
     <updated>2023-02-12T05:18:27.762Z</updated>
-    
-    
-    
-    
-    
-    <category term="test" scheme="http://example.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>新地平线 | NEW HORIZON</title>
-    <link href="http://example.com/2023/02/02/NewHorizon/"/>
-    <id>http://example.com/2023/02/02/NewHorizon/</id>
-    <published>2023-02-02T12:43:36.379Z</published>
-    <updated>2023-02-12T05:25:28.009Z</updated>
-    
-    
-    
-    
-    
-    <category term="test" scheme="http://example.com/tags/test/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>溅落 | SPLASH</title>
-    <link href="http://example.com/2023/01/27/Splash/"/>
-    <id>http://example.com/2023/01/27/Splash/</id>
-    <published>2023-01-27T14:33:24.303Z</published>
-    <updated>2023-02-12T05:26:16.048Z</updated>
     
     
     

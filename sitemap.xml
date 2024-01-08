@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://example.com/2023/10/24/M00n719ht/</loc>
+    <loc>http://example.com/2024/01/08/EndlessString21/</loc>
+    
+    <lastmod>2024-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2024/01/08/M00n719ht/</loc>
+    
+    <lastmod>2024-01-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.com/2023/10/24/hidden/M00n719ht/</loc>
     
     <lastmod>2023-10-24</lastmod>
     
@@ -11,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/10/21/DuskRain/</loc>
+    <loc>http://example.com/2023/10/21/hidden/DuskRain/</loc>
     
     <lastmod>2023-10-21</lastmod>
     
@@ -20,7 +38,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/09/02/SongOfSongs/</loc>
+    <loc>http://example.com/2023/09/02/hidden/SongOfSongs/</loc>
     
     <lastmod>2023-09-01</lastmod>
     
@@ -29,7 +47,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/08/19/MontagneBlanc/</loc>
+    <loc>http://example.com/2023/08/19/hidden/MontagneBlanc/</loc>
     
     <lastmod>2023-08-19</lastmod>
     
@@ -38,7 +56,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/07/19/SinAge/</loc>
+    <loc>http://example.com/2023/07/19/hidden/SinAge/</loc>
     
     <lastmod>2023-07-19</lastmod>
     
@@ -47,7 +65,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/06/28/RetreatedSnow/</loc>
+    <loc>http://example.com/2023/06/28/hidden/RetreatedSnow/</loc>
     
     <lastmod>2023-07-10</lastmod>
     
@@ -56,7 +74,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/07/09/Cornucopia/</loc>
+    <loc>http://example.com/2023/07/09/hidden/Cornucopia/</loc>
     
     <lastmod>2023-07-01</lastmod>
     
@@ -65,7 +83,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/06/26/Anzz-Raphaenia/</loc>
+    <loc>http://example.com/2023/06/26/hidden/Anzz-Raphaenia/</loc>
     
     <lastmod>2023-06-26</lastmod>
     
@@ -74,7 +92,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/05/22/AnemoiA/</loc>
+    <loc>http://example.com/2023/05/22/hidden/AnemoiA/</loc>
     
     <lastmod>2023-05-22</lastmod>
     
@@ -83,7 +101,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/03/23/LunaCandle/</loc>
+    <loc>http://example.com/2023/03/23/hidden/LunaCandle/</loc>
     
     <lastmod>2023-03-23</lastmod>
     
@@ -92,7 +110,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/03/12/NightOfTruths/</loc>
+    <loc>http://example.com/2023/03/12/hidden/NightOfTruths/</loc>
     
     <lastmod>2023-03-12</lastmod>
     
@@ -101,7 +119,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/03/12/Starry/</loc>
+    <loc>http://example.com/2023/03/12/hidden/Starry/</loc>
     
     <lastmod>2023-03-12</lastmod>
     
@@ -110,7 +128,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/03/12/AwayFromYarah/</loc>
+    <loc>http://example.com/2023/03/12/hidden/AwayFromYarah/</loc>
     
     <lastmod>2023-03-12</lastmod>
     
@@ -119,7 +137,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/03/03/TinkaTinka/</loc>
+    <loc>http://example.com/2023/03/03/hidden/TinkaTinka/</loc>
     
     <lastmod>2023-03-03</lastmod>
     
@@ -128,7 +146,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/02/27/DiesToFlourish/</loc>
+    <loc>http://example.com/2023/02/27/hidden/DiesToFlourish/</loc>
     
     <lastmod>2023-02-27</lastmod>
     
@@ -137,7 +155,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/02/18/ElSolDelReyLoco/</loc>
+    <loc>http://example.com/2023/02/18/hidden/ElSolDelReyLoco/</loc>
     
     <lastmod>2023-02-22</lastmod>
     
@@ -146,7 +164,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/02/12/Assimilated/</loc>
+    <loc>http://example.com/2023/02/12/hidden/Assimilated/</loc>
     
     <lastmod>2023-02-12</lastmod>
     
@@ -155,7 +173,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/01/27/Splash/</loc>
+    <loc>http://example.com/2023/01/27/hidden/Splash/</loc>
     
     <lastmod>2023-02-12</lastmod>
     
@@ -164,7 +182,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/02/02/NewHorizon/</loc>
+    <loc>http://example.com/2023/02/02/hidden/NewHorizon/</loc>
     
     <lastmod>2023-02-12</lastmod>
     
@@ -173,7 +191,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/01/24/LevanTostareAndExpertCommittee/</loc>
+    <loc>http://example.com/2023/01/24/hidden/LevanTostareAndExpertCommittee/</loc>
     
     <lastmod>2023-02-12</lastmod>
     
@@ -182,7 +200,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/01/25/Emerge/</loc>
+    <loc>http://example.com/2023/01/25/hidden/Emerge/</loc>
     
     <lastmod>2023-02-12</lastmod>
     
@@ -191,7 +209,7 @@
   </url>
   
   <url>
-    <loc>http://example.com/2023/02/06/Adyah'sVisitor/</loc>
+    <loc>http://example.com/2023/02/06/hidden/Adyah'sVisitor/</loc>
     
     <lastmod>2023-02-12</lastmod>
     
@@ -220,7 +238,7 @@
 
   <url>
     <loc>http://example.com/</loc>
-    <lastmod>2024-01-03</lastmod>
+    <lastmod>2024-01-08</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -228,21 +246,21 @@
   
   <url>
     <loc>http://example.com/tags/test/</loc>
-    <lastmod>2024-01-03</lastmod>
+    <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/test1/</loc>
-    <lastmod>2024-01-03</lastmod>
+    <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://example.com/tags/test2/</loc>
-    <lastmod>2024-01-03</lastmod>
+    <lastmod>2024-01-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
